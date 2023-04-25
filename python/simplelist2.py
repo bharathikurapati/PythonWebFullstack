@@ -1,0 +1,10 @@
+toppopulatedcitiesinkarnataka=['mangaluru','ballari','kolar','','hosapete','hubballi']
+print("toppapulatedStates")
+toppopulatedcitiesinkarnataka.remove('ballari')
+print("after removing a state",toppopulatedcitiesinkarnataka)
+toppopulatedcitiesinkarnataka.append('gadag')
+print("after adding new state",toppopulatedcitiesinkarnataka)
+toppopulatedcitiesinkarnataka.pop(2)
+print("after pop the  state",toppopulatedcitiesinkarnataka)
+toppopulatedcitiesinkarnataka.reverse()
+print("after reverse the states",toppopulatedcitiesinkarnataka)

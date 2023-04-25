@@ -1,0 +1,10 @@
+productslist=["phone","bags","oils"]
+print("productslist")
+productslist.remove("phone")
+print("after remove the product",productslist)
+productslist.append("shampoo")
+print("after adding the new product",productslist)
+productslist.pop(2)
+print("after pop the products",productslist)
+productslist.reverse()
+print("after reverse the products",productslist)

@@ -1,0 +1,10 @@
+bankslist=["unionbank","statebank","icicibank","hdfcbank"]
+print("bankslis")
+bankslist.remove("icicibank")
+print("after remove the bank",bankslist)
+bankslist.append("bank of india")
+print("after adding the banks",bankslist)
+bankslist.pop(2)
+print("after pop the banks",bankslist)
+bankslist.reverse()
+print("after reverse the banks",bankslist)

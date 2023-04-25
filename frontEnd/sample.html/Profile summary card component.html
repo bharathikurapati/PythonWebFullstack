@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  
+  <title>JS Bin</title>
+  
+  <style>
+    /* body{
+      text-align:center;
+    } */
+    
+    #container{
+      width: 600px;
+      height: 350px;
+      margin: auto;
+    }
+  
+    #left-child{
+      display: inline-block;
+      width: 250px;
+      text-align: center;
+      background-color: blue;
+      color: white;
+      height: 100%;
+      border-radius: 10px;
+    }
+    
+    #right-child{
+       display: inline-block;
+       width: 250px;
+       text-align: center;
+       height: 100%;
+       border-radius: 10px;
+      background-color: white;
+    }
+    .left-child-item{
+      margin:  40px auto 40px auto;
+    }
+    .right-child-item{
+      margin:  40px 0px 40px 0px;
+    }
+    
+    .box{
+      width: 200px;
+      height: 9px;
+      margin: 5px;
+      border-radius: 10px;
+      padding: 10px;
+    }
+    .box1{
+      background-color: #ff00005c;
+    }
+    .box2{
+      background-color: #ffd8002e;
+    }
+    .box3{
+      background-color: #3bc2eb96;
+    }
+    .box4{
+      background-color: #2525bf40;
+    }
+    .score{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 2px solid white;
+    }
+    button{
+      border:0;
+      background-color: black;
+      color: white;
+      border-radius: 5px;
+      padding: 5px;
+      width: 200px
+    }
+  </style>
+  
+</head>
+<body>
+  <div id="container">
+    <div id="left-child">
+      <div class='left-child-item'>Your child</div>
+      <div class='left-child-item score'>Score 89</div>
+      <div class='left-child-item'>Great</div>
+      <div class='left-child-item'>you really made good score! Healty congratutions</div>
+    </div>
+    <div id="right-child">
+      <div class='right-child-item'>Summary</div>
+      <div class='right-child-item'>
+        <div class="box box1">Reaction  85</div>
+        <div class="box box2">Memory   75</div>
+        <div class="box box3">Verbal  65 </div>
+        <div class="box box4">Visual 55</div>
+      </div>
+      <div class='right-child-item'>
+        <button>Continue</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

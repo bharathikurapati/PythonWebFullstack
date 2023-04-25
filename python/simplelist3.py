@@ -1,0 +1,10 @@
+appslist=["whatsapp","facebook","twitter","photos","google"]
+print("appslis")
+appslist.remove('google')
+print("after remove the apps",appslist)
+appslist.append('chrome')
+print("after adding the apps",appslist)
+appslist.pop(2)
+print("after pop the apps",appslist)
+appslist.reverse()
+print("after reverse the apps",appslist)

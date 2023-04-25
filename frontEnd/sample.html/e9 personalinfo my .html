@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /*body{
+    text-align:center;
+    }*/
+
+#container{
+    width:300px;
+    height:200px;
+    margin:auto;
+}
+#left-child{
+    display:inline-block;
+    width:250px;
+    text-align: center;
+    background-color:blueviolet;
+    color:white;
+    height:380px;
+    border-radius: 5px;
+}
+
+#right-child{
+    display: inline-block;
+    width:250px;
+    text-align: center;
+    height: 380px;
+    border-radius: 5px;
+    color: white;
+    background-color: aqua;
+}
+.left-child-item{
+    margin: 40px auto 40px auto;
+}
+.right-child-item{
+    margin: 40px auto 40px auto;
+}
+.box{
+    width: 200px;
+    height: 9px;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+}
+/*.box1{
+    background-color:black;
+}
+.box2{
+    background-color:black;
+}
+.box3{
+    background-color:black;
+}*/
+button{
+    border:0;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 150px;
+    height: 50px;
+}
+</style>
+<body>
+    <div id="container">
+    <div id="left-child">
+    <div class="left-child-item"></div>
+    <div class="left-child-item">STEP1  YOUR INFO</div>
+    <div class="left-child-item">STEP2  SELECT PLAN</div>
+    <div class="left-child-item">STEP3  ADD-ONS</div>
+    <div class="left-child-item">STEP4  SUMMARY</div>
+    <div id="right-child">
+        <div class="right-child-item"><h1>personal info</h1></div>
+        <p> please provide your name,amail address, and phone number</p>
+        <div class="right-child-item">
+        <div>Name</div>
+        <div class="box box1">Sujatha</div>
+        <div>Email address</div>
+        <div class="box box2">kurapatisuji10@gmail.com</div>
+        <div>phone number</div>
+        <div class="box box3">9878657865</div>
+    </div>
+        <div class="right-child-item">
+        <button>Next Step</button>
+    </div>
+    </div>
+    </div>
+</body>
+</html>

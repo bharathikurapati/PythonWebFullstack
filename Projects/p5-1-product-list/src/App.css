@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.ProductsList {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.ProductItemBox {
+  width: 250px;
+  height: 400px; 
+  border: 1px soild grey;
+}
+.ProductPhoto {
+  height: 250px;
+}
+.PriceDetails {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+.ActualPrice {
+  text-decoration: line-through;
+}
+.Feedback {
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+}  
